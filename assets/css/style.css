@@ -85,6 +85,12 @@ body {
   transition: all 0.5s ease 0s;
 }
 
+@media screen and (max-width: 575.98px) {
+  .scroll-to-top .circle{
+    display: none;
+  }
+}
+
 .scroll-to-top .circle:hover {
   background-color: #E31C25 ; 
 }
@@ -228,8 +234,7 @@ header {
 
 @media screen and (max-width: 575.98px) {
   #home header .main-nav .logo {
-    width: 100%;
-    max-width: 100%;
+    display: none;
   }
 }
 
@@ -248,11 +253,7 @@ header {
   position: relative;
 }
 
-@media screen and (max-width: 575.98px) {
-  #home header .main-nav .social-media {
-    display: none;
-  }
-}
+
 
 #home header .main-nav .social-media ul li {
   display: inline-block;
